@@ -1,4 +1,4 @@
-# Homebrew Tap
+# Homebrew repo
 
 Homebrew repo for my formulas.
 
