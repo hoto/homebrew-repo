@@ -3,6 +3,7 @@
 Homebrew repo for my formulas.
 
     brew install hoto/repo/git-my-git
+    brew install hoto/repo/template-go-application
     
 ---
 
