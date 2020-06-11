@@ -2,16 +2,16 @@
 class GitMyGit < Formula
   desc "Navigitae locally cloned repos."
   homepage "https://github.com/hoto/git-my-git"
-  version "0.0.2"
+  version "0.0.4"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/hoto/git-my-git/releases/download/0.0.2/git-my-git_Darwin_x86_64.zip"
-    sha256 "7f20ad22c3c52f2cf90da57caeceb15c5255ddf5b1d966866cb54b0d0eb5d69d"
+    url "https://github.com/hoto/git-my-git/releases/download/0.0.4/git-my-git_Darwin_x86_64.zip"
+    sha256 "1d6bd8a69857675e5ae49bd5d4c9f4176b793d00726962bd6ecce4805326e316"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/hoto/git-my-git/releases/download/0.0.2/git-my-git_Linux_x86_64.zip"
-      sha256 "a4987bfaf2012daa3410637bd3cee03871313d950993ddea0da95615447aba46"
+      url "https://github.com/hoto/git-my-git/releases/download/0.0.4/git-my-git_Linux_x86_64.zip"
+      sha256 "352f0729412aa2ace009206963b09092dbb8163e4bd52366d0663c8dea89641d"
     end
   end
 
