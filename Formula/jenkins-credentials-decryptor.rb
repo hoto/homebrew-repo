@@ -2,16 +2,16 @@
 class JenkinsCredentialsDecryptor < Formula
   desc "Navigitae locally cloned repos."
   homepage "https://github.com/hoto/jenkins-credentials-decryptor"
-  version "1.0.0"
+  version "1.1.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/hoto/jenkins-credentials-decryptor/releases/download/1.0.0/jenkins-credentials-decryptor_Darwin_x86_64.zip"
-    sha256 "999a57b17d4a80255833e99477f92997cee7c4b8702f6d360673751238faa04e"
+    url "https://github.com/hoto/jenkins-credentials-decryptor/releases/download/1.1.0/jenkins-credentials-decryptor_Darwin_x86_64.zip"
+    sha256 "35036479ac43be8f2835c925dcdef10ed4c4f5af3794eb614904bdb1290460fc"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/hoto/jenkins-credentials-decryptor/releases/download/1.0.0/jenkins-credentials-decryptor_Linux_x86_64.zip"
-      sha256 "0830d074f325e5a76b0057ac80721e91d0948eafb7bba282f9f0e4620b984719"
+      url "https://github.com/hoto/jenkins-credentials-decryptor/releases/download/1.1.0/jenkins-credentials-decryptor_Linux_x86_64.zip"
+      sha256 "30cdfccf7ca8c3a828fbd5a745a17e759ca0183461e15a616bed769ea57daa2d"
     end
   end
 
