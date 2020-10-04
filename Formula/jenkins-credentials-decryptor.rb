@@ -7,11 +7,11 @@ class JenkinsCredentialsDecryptor < Formula
 
   if OS.mac?
     url "https://github.com/hoto/jenkins-credentials-decryptor/releases/download/1.1.0/jenkins-credentials-decryptor_Darwin_x86_64.zip"
-    sha256 "35036479ac43be8f2835c925dcdef10ed4c4f5af3794eb614904bdb1290460fc"
+    sha256 "15e18b06720c468ade91feb83c2a61b64cbaf59969cd457e4cecd99f6e008a26"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/hoto/jenkins-credentials-decryptor/releases/download/1.1.0/jenkins-credentials-decryptor_Linux_x86_64.zip"
-      sha256 "30cdfccf7ca8c3a828fbd5a745a17e759ca0183461e15a616bed769ea57daa2d"
+      sha256 "fa0ef061ead425d89484f367e813d77400bffb725664f92057b7da6a132797bf"
     end
   end
 
