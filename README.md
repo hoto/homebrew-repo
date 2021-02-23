@@ -7,6 +7,7 @@ Homebrew repo for my formulas.
     brew install hoto/homebrew-repo/template-go-application
     brew install hoto/homebrew-repo/template-go-web-server
     brew install hoto/homebrew-repo/jenkins-credentials-decryptor
+    brew install hoto/homebrew-repo/template-go-web-server
     
 ---
 
