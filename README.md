@@ -5,6 +5,7 @@ Homebrew repo for my formulas.
     brew install hoto/homebrew-repo/git-my-git
     brew install hoto/homebrew-repo/fuzzy-repo-finder
     brew install hoto/homebrew-repo/template-go-application
+    brew install hoto/homebrew-repo/template-go-web-server
     brew install hoto/homebrew-repo/jenkins-credentials-decryptor
     
 ---
