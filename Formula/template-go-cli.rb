@@ -5,20 +5,20 @@
 class TemplateGoCli < Formula
   desc "Golang CLI template."
   homepage "https://github.com/hoto/template-go-cli"
-  version "1.0.3"
+  version "1.0.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/hoto/template-go-cli/releases/download/1.0.3/template-go-cli_Darwin_x86_64.zip"
-      sha256 "ae8a3c1d40ff9d94356b1e01645b4e054e9c2e93dad6d9f501ee47ef1d587276"
+      url "https://github.com/hoto/template-go-cli/releases/download/1.0.0/template-go-cli_Darwin_x86_64.zip"
+      sha256 "a990b4ec17da755ccbdb6b139575c49f0b2f5fb517ca5d6d427089440f03477b"
 
       def install
         bin.install "template-go-cli"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/hoto/template-go-cli/releases/download/1.0.3/template-go-cli_Darwin_arm64.zip"
-      sha256 "933a4f0ece12174faf14cef3eeec8f02737629241e7f0d1dde05624c4170f992"
+      url "https://github.com/hoto/template-go-cli/releases/download/1.0.0/template-go-cli_Darwin_arm64.zip"
+      sha256 "17a6e12bdc4c47f35593cb35498edf02ce71df7b50c6159f06d540a507d15276"
 
       def install
         bin.install "template-go-cli"
@@ -28,16 +28,16 @@ class TemplateGoCli < Formula
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/hoto/template-go-cli/releases/download/1.0.3/template-go-cli_Linux_arm64.zip"
-      sha256 "a9434066ba6ae440beee83c0548364bac77f214ace88077fe5db79fec16e2840"
+      url "https://github.com/hoto/template-go-cli/releases/download/1.0.0/template-go-cli_Linux_arm64.zip"
+      sha256 "e047513146a5c21af8d24a7ca94535619d4d60bec6a5b56ec586acbec3dc5b69"
 
       def install
         bin.install "template-go-cli"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/hoto/template-go-cli/releases/download/1.0.3/template-go-cli_Linux_x86_64.zip"
-      sha256 "099b67a4ff58d0d6a271b7572e81cf31c12fc18b980bd5f4460bebe28e2a085c"
+      url "https://github.com/hoto/template-go-cli/releases/download/1.0.0/template-go-cli_Linux_x86_64.zip"
+      sha256 "04759f9d5ae3022a345da38c7d5d30289273980e747ac46b3da8551d6d3e9c00"
 
       def install
         bin.install "template-go-cli"
